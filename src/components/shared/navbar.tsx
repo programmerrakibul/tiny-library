@@ -48,7 +48,7 @@ const Navbar = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 w-full transition-all duration-300 border-b",
         isScrolled
-          ? "bg-background/20 backdrop-blur-xs supports-backdrop-filter:bg-background/20 shadow-sm border-border"
+          ? "bg-background/30 backdrop-blur-sm supports-backdrop-filter:bg-background/30 shadow-sm border-border"
           : "bg-transparent border-transparent",
       )}
     >
@@ -61,6 +61,7 @@ const Navbar = () => {
                 alt="Tiny Library Logo"
                 width={178}
                 height={117}
+                priority
                 className="object-cover w-full h-full"
               />
             </Link>
