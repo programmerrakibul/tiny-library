@@ -15,8 +15,7 @@ const Hero = () => {
               Browse books
             </span>
             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-foreground">
-              Find your next <br className="hidden sm:inline" />
-              favourite book
+              Find your next favourite book
             </h1>
             <p className="text-lg text-muted-foreground max-w-prose leading-relaxed">
               Tiny Library is a cosy corner of the web where readers discover
